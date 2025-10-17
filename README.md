@@ -78,4 +78,4 @@ Command:
    pytest tests/test4_edit_user.py -s
 
 Expected Output:
-   ✅ User 'John Smith' edited to 'John Akhil Smith' successfully!
+    User 'John Smith' edited to 'John Akhil Smith' successfully!
