@@ -79,3 +79,21 @@ Command:
 
 Expected Output:
     User 'John Smith' edited to 'John Akhil Smith' successfully!
+------------------------------------------------------------
+    
+Bugs / Issues Summary
+
+1. User Addition Issue:
+When adding a new user, some valid usernames are rejected as invalid, while others are accepted without issue.
+
+
+2. Edit Functionality Issue:
+When changing a user’s status from Enabled to Disabled, the system shows a success message, but the user remains Enabled after refreshing the page.
+
+
+3. User Deletion Issue:
+Only certain users are getting deleted successfully — others remain in the list even after showing a success notification.
+
+
+4. Intermittent Page Refresh Issue:
+Occasionally, the Admin module or User Management page takes a long time to reload after performing actions like Add or Ed
